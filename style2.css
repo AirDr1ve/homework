@@ -1,4 +1,9 @@
+/* .ul{
+    display: block;
+    margin-block-start: 6em;
+} */
 
+}
 .table{
     border: px solid #000;
     color: black;
@@ -6,9 +11,9 @@
 
 .header{
     color: black;
-    display: flex;
+    display: inline-block;
     text-align: center;
-    border: px solid #000;
+    border: 1px solid #000;
     font-weight: bold;
 }
 
@@ -32,17 +37,51 @@
 
 .bodybox{
     color: black;
-    display: flex;
-    border: px solid #000;
+    display: inline-block;
+    border: 1px solid #000;
     
 }
 
 .name{
     
     text-align: center;
+
+}
+
+.bodybox1{
+    color: black;
+    display: inline-block;
+    border: 1px solid #000;
+    
 }
 
 .name1{
-    text-align: center;
-    width: 802px;
+    color: red;
+    
+    width: 806px;
+   
+
+}
+/* .bodyheight{
+    padding-top:  30px;
+    padding-bottom: 30px;
+} */
+
+
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.height{
+    height: 60px;
+    padding-top: 40px;
+}
+
+.ulAlexandr{
+    height: 65px;
 }
