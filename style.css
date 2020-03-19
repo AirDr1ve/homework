@@ -1,8 +1,32 @@
+.table{
+    display: table; 
+    border: px solid black; 
+    margin: 16px; 
+    padding: 10px;
+    width:80%}
+.caption{
+    display: table-caption; 
+    border: 1px solid black
+}
+.header_cell{
+    width: 300px;
+    display: inline-block; 
+    border: 1px solid black;
+    text-align: center;
+}
+.cell{
+    width: 300px;
+    display: table-cell; 
+    border: 1px solid black;
+}
+.cell{
+    display:inline-block;
+    margin: 0px; 
+}
+.row{
+    display: table-row; border: 0px solid black;
+}
 .header{
-    /* border: 1px solid #000; */
-    outline: 1px solid #000;
-    margin: 5px;;
-    display: table;
-    font-weight: 700px
+    display: table-row; border: 0px solid black;
     
 }
