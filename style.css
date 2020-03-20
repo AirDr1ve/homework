@@ -1,44 +1,143 @@
+/* .ul{
+    display: block;
+    margin-block-start: 6em;
+} */
+
+}
 .table{
-    display: table; 
-    border: 1px solid black; 
-    margin: 16px; 
-    padding: 3px;
-    
+    border: px solid #000;
+    color: black;
+    margin: 1px;
 }
-.caption{
-    display: table-caption; 
-    border: 1px solid black
-}
-.header_cell{
-    width: 300px;
-    display: inline-block; 
-    border: 1px solid black;
+
+.header{
+    color: black;
+    display: inline-block;
     text-align: center;
-    font-weight: bolder;
+    border: 1px solid #000;
+    font-weight: bold;
 }
 
-.cell_name{
+.box-1{
+    width: 400px;
+    border: 1px solid #000;
+}
+.box-2{
+    width: 400px;
+    border: 1px solid #000;
+}
+
+.box-3{
+    width: 200px;
+    border: 1px solid #000;
+}
+.box-4{
+    width: 200px;
+    border: 1px solid #000;
+}
+
+.bodybox{
+    color: black;
+    display: inline-block;
+    border: 1px solid #000;
     
-}
-
-.cell{
-    width: 300px;
-    display: table-cell; 
-    border: 1px solid black;
 }
 
 .name{
+    
     text-align: center;
+
 }
-.cell{
-    display:inline-block;
-    margin: 0px; 
-}
-.row{
-    display: table-row; border: 0px solid black;
-}
-.header{
-    display: table-row; border: 0px solid black;
+
+.bodybox1{
+    color: black;
+    display: inline-block;
+    border: 1px solid #000;
     
 }
 
+.name1{
+    color: red;
+    
+    width: 806px;
+   
+
+}
+/* .bodyheight{
+    padding-top:  30px;
+    padding-bottom: 30px;
+} */
+
+
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.height{
+    height: 60px;
+    padding-top: 40px;
+}
+
+.ulAlexandr{
+    height: 65px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 400px 400px 100px 100px;
+}
+
+.grid div{
+    border: 1px solid #000;
+    margin: 1px;
+}
+
+.grid div:nth-child(9){
+    padding-top: 3%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: red;
+}
+
+
+
+.grid div:nth-child(10){
+    padding-top: 20px;
+
+}
+
+
+.Katy{
+    padding-top: 30px;
+}
+
+
+
+.grid div:nth-child(20){
+  
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: red;
+}
+
+.Alexander{
+    
+    padding-top: 25px;
+}
