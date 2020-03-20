@@ -7,6 +7,7 @@
 .table{
     border: px solid #000;
     color: black;
+    margin: 1px;
 }
 
 .header{
@@ -84,4 +85,58 @@
 
 .ulAlexandr{
     height: 65px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 400px 400px 100px 100px;
+}
+
+.grid div{
+    border: 1px solid #000;
+    margin: 1px;
+}
+
+.grid div:nth-child(9){
+    padding-top: 3%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: red;
+}
+
+
+
+.grid div:nth-child(10){
+    padding-top: 20px;
+
+}
+
+
+.Katy{
+    padding-top: 30px;
+}
+
+
+
+.grid div:nth-child(20){
+  
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: red;
+}
+
+.Alexander{
+    padding-top: 25px;
 }
