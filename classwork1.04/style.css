@@ -1,0 +1,114 @@
+
+.container{
+    margin: 0 auto;
+    width: 73%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+
+.img{
+    border: 1px solid silver;
+    height: 250px;
+    padding: 5px;
+    box-shadow: 0px -26px 46px -50px #9b8686 inset;
+}
+
+
+.photo{
+    margin: 5px;
+    height: 70%;
+    background: url("../assets/image/flowers.png") center no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.photo2{
+    margin: 5px;
+    height: 70%;
+    background: url("../assets/image/2.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.data{
+    color: rgba(77, 77, 77, 0.493);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    color: silver;
+    margin: 0px 10px;
+    border-bottom: 1px solid silver;
+}
+
+.socail{
+    margin-top: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    text-align: right;
+    color: silver;
+
+}
+
+.span_text{
+    padding-right: 5px;
+}
+
+i[class="fas fa-search-plus"]{
+    left: 40%;
+    top: 40%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.801);
+    /* color: rgba(77, 77, 77, 0.493); */
+    position: absolute;
+}
+
+i[class="fas fa-search-plus"]:hover{
+    font-size: 35px;
+}
+
+i[class="fas fa-star"]{
+    margin-left: 10px;
+    color: orange;
+}
+
+i[class="fas fa-star"]:hover{
+    color: red;
+}
+
+
+i[class="fab fa-facebook"]{
+    padding-left: 5px;
+}
+
+i[class="fab fa-facebook"]:hover{
+    color: blue
+}
+
+i[class="fab fa-twitter-square"]{
+    padding-left: 5px;
+}
+
+i[class="fab fa-twitter-square"]{
+    padding-left: 5px;
+}
+
+i[class="fab fa-twitter-square"]:hover{
+    color:skyblue
+}
+i[class="fab fa-pinterest"]{
+    padding-left: 5px;
+}
+
+i[class="fab fa-pinterest"]:hover{
+    color: red;
+}
