@@ -198,7 +198,7 @@ i[class="fas fa-search"]{
 
 .main_main{
     display: grid;
-    /* /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 128px 128px 128px;
     grid-template-areas: 
         "text1 img img img img"
@@ -216,7 +216,7 @@ i[class="fas fa-search"]{
 
 .main_text_box1{
     grid-area: text1;
-    padding: 10px 20px 0px 20px;
+    padding: 10px 0 10px 20px;
     background-color: #fff;
 }
 
