@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+
 .container{
     
     max-width: 73%;
@@ -198,7 +199,7 @@ i[class="fas fa-search"]{
 
 .main_main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    /* /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     grid-template-rows: 128px 128px 128px;
     grid-template-areas: 
         "text1 img img img img"
@@ -216,7 +217,7 @@ i[class="fas fa-search"]{
 
 .main_text_box1{
     grid-area: text1;
-    padding: 10px 0 10px 20px;
+    padding: 10px 20px 0px 20px;
     background-color: #fff;
 }
 
@@ -334,12 +335,22 @@ i[class="fas fa-search"]{
     overflow: auto;
 
 }
+.catalog::-webkit-scrollbar { 
+    width: 0; 
+}
 
 .flowers{
     display: flex;
     flex-wrap: wrap;
     height: 270px;
     overflow: auto;
+    border-top: 1px solid silver;
+    box-shadow: -13px 45px 67px -4px rgba(0,0,0,0.05);
+    
+}
+
+.flowers::-webkit-scrollbar {
+    width: 5px; 
 }
 
 .flowers_box{
