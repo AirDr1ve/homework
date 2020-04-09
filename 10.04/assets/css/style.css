@@ -1,0 +1,500 @@
+
+body{
+    margin-top: 5px;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.project{
+    width: 100%;
+    background: linear-gradient(0deg, #fff, #f0f0f0);
+}
+
+
+
+.container{
+    
+    max-width: 73%;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.Intro{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    top: 25px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 50px;
+}    
+
+.social{
+    background-color: #fff
+}
+
+.social_net{
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+.social_net:last-child{
+    font-size: 20px;
+    color: silver;
+}
+
+.social_item{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social_logo{
+    color: black;
+    margin-left: 10px;
+}
+
+.login{
+    display: flex;
+    
+}
+
+.login_item{
+    color: black;
+    text-decoration: none;
+    transition: .1s linear;
+}
+
+button{
+    font-weight: 500;
+    padding: 3;
+    border: none;
+    background-color: transparent;
+}
+
+input{
+    outline: none;
+    border-style: groove;
+}
+
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    position: relative;
+    margin-right: -15px;
+    margin-top: 25px;
+}
+
+#search{
+    padding-left: 30px;
+    
+}
+
+i[class="fas fa-search"]{
+    color: rgb(153, 153, 153);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.header_left{
+    display: grid;
+    margin-top: 15px;
+    grid-template-areas: 
+        "ico text"
+        "ico phone";
+}
+
+.header_icon{
+    grid-area: ico;
+    font-size: 30px;
+    margin: auto 5px;
+}
+
+.header_phone{
+    padding-bottom: 10px;
+    grid-area: phone;
+}
+
+.header_text  {
+    grid-area: text;
+    padding-top: 10px;
+}
+
+
+.nav{
+    background-color: #fff;
+    padding: 20px 0px;
+    margin-top: 3px;
+    
+}
+
+.nav_link{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navi{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.navi:hover{
+    color: red ;
+    /* text-decoration: underline; */
+}
+
+.navi:last-child{
+    margin-left: 10px;
+}
+
+.warranty{
+    background-color: #fff;
+    padding: 20px 0px;
+    margin-top: 3px;
+}
+
+.warr_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main_main{
+    display: grid;
+    /* /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-rows: 128px 128px 128px;
+    grid-template-areas: 
+        "text1 img img img img"
+        "text2 img img img img"
+        "text3 img img img img";
+    
+}
+
+
+
+.main_text{
+    
+    background-color: #fff;
+}
+
+.main_text_box1{
+    grid-area: text1;
+    padding: 10px 20px 0px 20px;
+    background-color: #fff;
+}
+
+.main_text_box2{
+    grid-area: text2;
+    padding: 10px 20px 0px 20px;
+    background-color: #fff;
+}
+
+.main_text_box3{
+    grid-area: text3;
+    padding: 10px 20px 0px 20px;
+    background-color: #fff;
+}
+
+
+.main_text_1, .main_text_3{
+    font-size: 12px;
+    color: #909090;
+    text-transform: uppercase;
+}
+
+.main_text_2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main_text_4{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main_text_5{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(151, 151, 151);
+    transition: .1s linear;
+}
+
+.main_text_5:hover {
+    color: black;
+    
+}
+
+
+.main_img{
+    grid-area: img;
+    background: url("../image/main.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* .main_main{
+    position: relative;
+    margin-top: 3px;
+    display: flex;
+} */
+
+
+.main_img_title{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+
+}
+.main_img_title a{
+    color: red
+}
+
+.main_img_text{
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 10px 0;
+    margin: 10px 0;
+  
+}
+
+
+.main_img_btm{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: .1s linear;
+}
+
+
+
+
+.main_img_btm:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(238, 238, 238);
+    border-radius: 100px
+
+}
+
+
+
+.main_img_text_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    top:25%;
+    right: 15%;
+    position: absolute;
+    text-align: center;
+}
+
+
+.catalog{
+    margin: 30px 0;
+    height: 630px;
+    overflow: auto;
+
+}
+
+.flowers{
+    display: flex;
+    flex-wrap: wrap;
+    height: 270px;
+    overflow: auto;
+}
+
+.flowers_box{
+    margin-top: 30px;
+}
+
+.flowers_block{
+    margin: 20px 0;
+    width: 25%;
+
+}
+
+.Item_name{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.flowers_img{
+    background: url("../image/flowers.png") center no-repeat;
+    background-size: contain;
+    height: 150px;
+    margin: 20px 0 10px 0;
+}
+
+.flowers_info{
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+
+.flower_order{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    transition: .15s linear;
+}
+
+.flower_order:hover{
+    color: white;
+    background-color: rgb(180, 180, 180)
+}
+
+
+.flower_price{
+    padding: 5px 0px;
+}
+
+
+.infostand{
+    background-color: rgb(230, 230, 230)
+}
+
+.inf{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infostand_links_item{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+
+
+}
+
+.infostand_link{
+    
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    transition: 0.1s linear;
+    
+}
+
+.infostand_link:hover{
+    color: black
+}
+
+
+.infostand_title{
+    
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.infostand_text{
+    margin-top: 16px;
+    color: rgb(107, 107, 107);
+}
+
+
+input[type="text"]{
+    font-size: 18px;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.dws-name{
+    margin-top: 20px;
+}
+
+.dws-join{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(103, 185, 128);
+    font-size: 18px;
+    border-radius: 100px;
+    border: 1px solid rgb(103, 185, 128);
+    margin-top: 10px;
+    padding: 10px 100px;
+    
+}
+
+.testimonials{
+    margin-top: 16px;
+    line-height: 2;
+    font-weight: 300;
+    
+}
+
+
+
+.footer_block{
+    color: silver;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    color: silver;
+}
+
+
+
+
+.footer_pay{
+    background: url("../image/pay.png") no-repeat;
+    background-size: contain;
+    width: 140px;
+}
+
+.footer_social_logo{
+    color: silver;
+    margin-left: 10px;
+}
+
+.footer_social_logo:hover{
+    color:black;
+    box-sizing: border-box;
+}
