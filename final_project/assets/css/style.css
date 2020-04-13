@@ -1,6 +1,5 @@
 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
+
 
 h1, h2, h3, h4, h5, h6{
     margin: 0;
@@ -25,7 +24,6 @@ a{
 }
 
 header{
-    height: 670px;
     background-color: #e9e9e9;
 }
 
@@ -51,7 +49,7 @@ header{
     height: 30px;
 }
 
-li{
+ul[class="nav_section"] li{
     padding-left: 33px;
 }
 
@@ -76,10 +74,19 @@ li{
 }
 
 .banner{
-    margin: 171px 0 0 670px;
-    width: 478px;
-    height: 235px;
+    background-color: #e9e9e9;
+    padding-top: 180px;
     
+    
+    
+}
+
+.banner_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+   
 }
 
 .banner_text{
@@ -100,6 +107,8 @@ li{
     border: none;
     outline-style: none;
     transition: .1s linear;
+    margin: 0 290px 200px 0;
+    
 }
 
 .banner_btn:hover{
@@ -110,7 +119,7 @@ li{
     background-color: white;
     margin: 0 auto;
     width: 599px;
-    height: 420px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -133,13 +142,13 @@ li{
 
 
 .bg_skills{
-    height: 570px;
     background: linear-gradient(to right, #f8f9f9 50%, #e9e9e9 50%);
 }
 
 
 .skills{
     width: 50%;
+    padding-bottom: 165px;
     
 }
 
@@ -210,12 +219,11 @@ li{
 
 
 .nambers{
-    height: 240px;
     background-color: #10c9c3;
 }
 
 .numbers_items{
-    padding-top: 101px;
+    padding: 101px 0;
     font-size: 48px;
     color: white;
     display: flex;
@@ -251,14 +259,13 @@ li{
     grid-area: icon;
 }
 
-.work{
-    height: 700px;
-    
-}
+
 
 .work_imgs{
     height: 600px;
-    background-color: #ddd;
+    width: 1366px;
+    margin: 0 auto;
+    background-color: #dddddd;
     display: grid;
     grid-template-areas: 
     "img1 . img2 ."
@@ -416,7 +423,7 @@ li{
 }
 
 .services_items{
-    padding: 40px 0 100px 0;
+    padding: 40px 0 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -458,11 +465,125 @@ li{
 }
 
 .testimonials_text{
-    margin: 0 auto;
     font-size: 24px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    width: 830px;
-    
+    padding-top: 180px;
 
+}
+
+.testimonials_user{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 35px;
+}
+
+#testimonials_icon{
+    padding: 103px 0 60px ;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.clients{
+    background-color: #fff;
+    height: 200px;
+
+}
+
+.clients_logo{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.need_a_project{
+    background-color: #f5f5f5;
+    text-align: center;
+    height: 750px;
+}
+
+form{
+    
+    margin: 0 auto;
+    width: 670px;
+    display: grid;
+    grid-template-columns: 320px 320px;
+    grid-template-rows: 48px 48px 172px;
+    grid-gap: 30px;
+}
+
+
+.input_name, .input_email, .input_title, .input_comment{
+    outline: none;
+    padding-left: 20px;
+    border: none;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+
+.input_title{
+  grid-column: 1/3;
+  
+       
+}
+
+.input_comment{
+    grid-column: 1/3;
+}
+
+.input_btn{
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 15px 35px;
+    background-color: #10c9c3;
+    border: none;
+    outline: none;
+    transition: .1s linear;
+}
+
+.input_btn:hover{
+    color: #000;
+}
+
+footer{
+    background-color: #141414;
+}
+
+.footer_content{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_title{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+
+.footer_info, .copyright, .footer_nav_link{
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+.footer_nav{
+    display: flex;
+}
+
+ul[class="footer_nav_links"] li{  
+    padding-left: 55px;
+}
+
+.footer_nav_link:hover{
+    color: #fff;
 }
