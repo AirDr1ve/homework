@@ -1,12 +1,6 @@
 
 font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-
-body{
-    margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6{
+font-family: 'Nunito Sans', sans-serif;h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
 }
@@ -63,7 +57,7 @@ li{
     
     font-size: 12px;
     text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #191919;
     transition: .1s linear;
@@ -89,13 +83,13 @@ li{
 .banner_text{
     margin: 40px 0;
     font-size: 18px;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     color: #787878;  
 }
 
 .banner_btn{
     font-size: 12px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-transform: uppercase;
     width: 180px;
@@ -121,7 +115,7 @@ li{
 .about_title{
     padding-top: 95px;
     font-size: 30px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 
 }
@@ -129,8 +123,7 @@ li{
 
 .about_text{
     font-size: 16px;
-    font-family: Nunito Sans;
-    color: #787878;  
+    font-family: 'Nunito Sans', sans-serif;   color: #787878;  
     margin: 38px 0;
 }
 
@@ -156,7 +149,7 @@ li{
 .skills_title{
     padding-top: 164px;
     font-size: 30px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 
 }
@@ -164,7 +157,7 @@ li{
 .skills_text{
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -238,7 +231,7 @@ li{
 }
 
 .numbers_num{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     grid-area: numb;
 }
@@ -247,7 +240,7 @@ li{
     grid-area: title;
     text-transform: uppercase;
     font-size: 12px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     
 }
@@ -389,7 +382,7 @@ li{
 
 .load_more_text{
     color: #8e8e8e;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-weight: 500;
     text-transform: uppercase;
@@ -443,7 +436,7 @@ li{
     margin-top: 30px;
     text-transform: uppercase;
     font-size: 12px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: #191919;
 }
 
@@ -451,7 +444,7 @@ li{
 .services_text{
     margin-top: 20px;
     color: #787878;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     
 }
@@ -466,7 +459,7 @@ li{
     margin: 0 auto;
     font-size: 24px;
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     width: 830px;
     
 
