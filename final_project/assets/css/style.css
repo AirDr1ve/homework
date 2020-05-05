@@ -406,62 +406,101 @@ ul[class="nav_section"] li{
     background-color: #fff;
     text-align: center;
     padding-top: 165px;
+    
 }
 .video_item{
+    
+    padding: 60px 0 100px;
+    
+    
+}
+
+.aria{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%;
-    
 }
 
 .work_video{
     width: 100%;
-    padding: 60px 0 100px 0;
-    height: 571px;
+    
     outline: none;
-    
-
-    
+       
     
 }
 
-.controls{
+.controls_btn{
     display: flex;
     position: absolute;
-    /* left: 50%;
-    bottom: 50%;
-     */
+    
 }
-
-/* .video_buttons button {
+.controls_time{
     position: absolute;
-    left: calc(50% - 45px);
-    bottom: calc(50% - 45px);
-    background: none;
-    outline: 0;
-    border: none;
-    cursor: pointer;
-    opacity: 00%;
-} */
-
-/* #play-pause::before{
-    content: url("/assets/image/clients_logo_3.png");
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 85px;
-    color: red;
-    position: absolute;
-} */
-
-
-.video_buttons button.play:before{
-    content: url("/assets/image/play.png");
+    overflow: hidden;
+    
 }
 
-.work_video:hover #play-pause{
+.blue-bar{
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .3s;
+    transform: translateY(85%);
+}
+
+.blue-juice{
+    height: 30px;
+    background-color: #10c9c3;
+}
+
+.aria:hover .blue-bar{
+    transform: translateY(0)
+}
+
+div button{
+    color: rgba(255, 255, 255, 0.65);
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    opacity: 70%;
+}
+div button.play:before{
+    content: '\f144';
+    font-family: 'Font Awesome 5 Free';
+    transition: .3s;
+}
+
+div button.pause:before{
+    content: '\f28b';
+    font-family: 'Font Awesome 5 Free';
+    transition: .3s;
+}
+
+
+#play-pause{
+    font-size: 150px;
+    opacity: 0;
+    transition: .3s;
+}
+
+div button:before{
+    content: '\f144';
+    font-family: 'Font Awesome 5 Free';
+}
+
+.aria:hover #play-pause{
     opacity: 100%;
 }
+
+
+
 
 
 
