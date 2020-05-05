@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="imgBx">
+                <img src="img1.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <h2>Islend Sazan</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam magnam harum repellat enim. Repellat eius rerum quod sit voluptatem totam adipisci commodi ut ipsum? Nobis commodi quas ea soluta?</p>
+            </div>
+        </div><div class="box">
+            <div class="imgBx">
+                <img src="img2.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <h2>Mountin</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam magnam harum repellat enim. Repellat eius rerum quod sit voluptatem totam adipisci commodi ut ipsum? Nobis commodi quas ea soluta?</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+        
+    </script>  
+</body>
+</html>
